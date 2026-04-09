@@ -13,6 +13,7 @@ A reusable, production-grade FastAPI boilerplate with JWT authentication, role-b
 - [Running the Application](#running-the-application)
 - [Running Tests](#running-tests)
 - [API Documentation](#api-documentation)
+- [Agent Setup Files](#agent-setup-files)
 - [Extending the Template](#extending-the-template)
 
 ---
@@ -254,6 +255,27 @@ All endpoints return a consistent envelope:
   "details": null
 }
 ```
+
+---
+
+## Agent Setup Files
+
+This repository now includes lightweight collaboration docs for human and AI contributors:
+
+| File | Purpose |
+|---|---|
+| `AGENTS.md` | Compatibility entry point for tools that look for the standard agent filename |
+| `aagents.md` | Entry point for repo-specific agent workflow, high-value files, and handoff expectations |
+| `rules.md` | Non-negotiable engineering, architecture, testing, security, and doc rules |
+| `skills.md` | Reusable task playbooks for common changes such as new resources, auth updates, config changes, and migrations |
+
+Recommended reading order:
+
+1. `aagents.md`
+2. `rules.md`
+3. `skills.md`
+4. `README.md`
+5. `DESIGN_DOCUMENT.md`
 
 ---
 
